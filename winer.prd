@@ -1,0 +1,93 @@
+# PRD — Site Institucional JP Auto Peças
+
+## 1. Visão Geral
+
+Site institucional (catálogo, sem carrinho/checkout) para a **JP Auto Peças**, loja de autopeças em Currais Novos (RN). O site deve apresentar a loja, exibir categorias e produtos com fotos e preço de referência, e direcionar o visitante para fechar o orçamento/compra via WhatsApp — replicando o modelo que a loja já usa no Instagram ("Faça já seu orçamento pelo nosso WhatsApp").
+
+## 2. Dados do negócio (confirmados)
+
+| Campo | Valor |
+|---|---|
+| Nome | JP Auto Peças |
+| Slogan | "Preço Baixo e Qualidade" |
+| Endereço | Rua Albany Salustino, 152 — Currais Novos, RN |
+| Telefone fixo | (84) 3431-2384 |
+| WhatsApp | (84) 99691-2051 → wa.me/5584996912051 |
+| Instagram | [@jp.autop](https://instagram.com/jp.autop) |
+| Avaliação Google | 4,4 ★ (13 avaliações) — categoria "Loja de autopeças" |
+| Serviços listados no Google | Compras na loja · Retirada na porta · Entrega |
+| Horário de funcionamento | Segunda a sexta: 8h às 18h · Sábado: 7h às 12h · Domingo: fechado |
+| CNPJ | 08.352.664/0001-21 |
+| Forma de pagamento | Crédito em até 12x sem juros (no cartão) |
+| Marcas trabalhadas | Monroe, Cofap, Nakata, Mahle, Wega, TRW, Petronas, Acdelco, NGK, Bosch, Wurth |
+
+## 3. Objetivos
+
+- Dar presença digital própria à loja (hoje a vitrine principal é o Instagram).
+- Aumentar contatos qualificados via WhatsApp (mesma métrica que já usam).
+- Facilitar que o cliente encontre endereço, telefone e horário sem depender do Google/Instagram.
+- Transmitir profissionalismo e reforçar o posicionamento de preço baixo + qualidade.
+
+### KPIs de sucesso
+- Nº de cliques no botão "Pedir orçamento no WhatsApp".
+- Nº de cliques em "Como chegar" (Google Maps).
+- Tempo médio na página e taxa de rejeição (proxy de relevância do catálogo).
+
+## 4. Público-alvo
+
+- **B2C** — donos de carro/moto em Currais Novos e região buscando peças, óleos, fluidos e acessórios automotivos.
+- **B2B** — mecânicos e oficinas que compram recorrentemente (atendimento confirmado; considerar condições/preço diferenciado para esse público).
+
+## 5. Escopo
+
+**Dentro do escopo (v1):**
+- Catálogo de categorias e produtos com foto, nome, descrição curta e preço (ou "Consulte").
+- Botão de WhatsApp em toda página de produto/categoria (deep link com mensagem pré-preenchida, ex: "Olá, quero orçar [produto]").
+- Página institucional (sobre a loja, missão, diferenciais).
+- Página de contato com endereço, mapa incorporado, telefones e horário.
+- Feed/galeria com fotos da loja e do time (reaproveitando estilo do Instagram).
+- Design responsivo (mobile-first — maioria do tráfego de loja local vem de celular).
+- SEO local básico (Google Business Profile, dados estruturados LocalBusiness, palavras-chave "autopeças Currais Novos").
+- Seção/CTA específico para oficinas e mecânicos (ex.: "Atende oficinas — condições especiais para mecânicos", com botão WhatsApp próprio para pedido de atacado).
+
+**Fora do escopo (v1):**
+- Carrinho de compras, checkout e pagamento online.
+- Login de cliente / área restrita.
+- Controle de estoque em tempo real integrado ao site.
+- App mobile.
+
+> Pode evoluir para o modelo "catálogo + orçamento" (carrinho de cotação sem pagamento) em uma v2, caso o volume de pedidos via WhatsApp justifique.
+
+## 6. Sitemap
+
+1. **Home** — hero com logo/slogan, selo "Parcele em até 12x sem juros no cartão", categorias em destaque, faixa de logos das marcas trabalhadas, prova social (nota Google), CTA WhatsApp, mapa/endereço no rodapé.
+2. **Produtos/Categorias** — grid de categorias (ex.: Óleos e Lubrificantes, Filtros, Freios, Suspensão, Elétrica, Acessórios, Limpeza Automotiva) → lista de produtos por categoria.
+3. **Produto (detalhe)** — foto, descrição, preço/“consulte”, botão WhatsApp.
+4. **Sobre** — história da loja, diferenciais, fotos da equipe/loja.
+5. **Contato** — endereço, mapa, telefones, WhatsApp, horário, redes sociais.
+
+## 7. Identidade visual
+
+- **Paleta:** preto (fundo), azul petróleo/turquesa (destaque, linha do logo, uniforme), branco (texto sobre fundo escuro).
+- **Logo:** ícone de carro estilizado em traço azul + nome em itálico bold branco, sublinhado, com slogan "Preço Baixo e Qualidade" abaixo.
+- **Tom de voz:** direto, próximo, popular — sem formalidade excessiva (alinhado ao humor usado nos Reels do Instagram).
+- **Fotografia:** ambiente de loja real (balcão de granito azul/branco, prateleiras organizadas por categoria de produto, equipe uniformizada) — usar fotos reais da loja, não stock genérico.
+
+## 8. Requisitos técnicos
+
+- Site responsivo, performático (LCP < 2.5s em 4G), já que o público acessa majoritariamente pelo celular vindo do Instagram/Google.
+- Integração com Google Maps (endereço embedado) e link "Como chegar".
+- Botão WhatsApp fixo (flutuante) em todas as páginas.
+- Dados estruturados Schema.org `LocalBusiness`/`AutoPartsStore` para SEO local.
+- Hospedagem simples (site estático ou CMS leve) — sem necessidade de backend complexo, dado que não há checkout.
+
+## 9. Pendências (preciso receber do cliente)
+
+- [ ] Lista de categorias/produtos que querem destacar, com preços ou indicação de "sob consulta".
+- [ ] Fotos em alta resolução da loja, fachada e produtos (as enviadas via print/Instagram servem como referência, mas idealmente em resolução maior).
+- [ ] Condições/preços diferenciados para oficinas (B2B), se houver, para detalhar na seção dedicada.
+
+## 10. Riscos e premissas
+
+- Premissa: modelo de negócio continua sendo "orçamento via WhatsApp", sem pagamento online — confirmado pela própria comunicação atual da loja.
+- Risco: sem fotos profissionais de produto, o catálogo pode ficar com aparência amadora; sugerido sessão de fotos dedicada ou uso de fotos de fabricante quando disponíveis.
